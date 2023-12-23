@@ -1,0 +1,21 @@
+.container {
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    margin: 10px 0;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    &.active,
+    &:hover {
+        background-color: #2e374a;
+    }
+}
