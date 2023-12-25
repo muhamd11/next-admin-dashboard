@@ -1,0 +1,27 @@
+.footer {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: var(--textSoftColor);
+    .logo {
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        .link {
+            color: #5d57c9;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: bolder;
+            &:hover {
+                color: #3f39a7;
+            }
+        }
+    }
+    .text {
+        font-size: 13px;
+    }
+}

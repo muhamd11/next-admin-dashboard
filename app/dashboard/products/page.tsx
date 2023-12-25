@@ -1,7 +1,10 @@
+import styles from '../../ui/dashboard/products/products.module.scss'
 
 const Products = () => {
   return (
-    <div>Products</div>
+    <div className={styles.container}>
+      Products
+    </div>
   )
 }
 
